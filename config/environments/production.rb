@@ -28,8 +28,8 @@ Rails.application.configure do
 
   # Mount Action Cable outside main process or domain
   # config.action_cable.mount_path = '/api/cable'
-  config.action_cable.url = 'wss://peaceful-headland-77668.herokuapp.com//api/cable'
-  config.action_cable.allowed_request_origins = [ 'https://desolate-earth-24328.herokuapp.com', 'http://desolate-earth-24328.herokuapp.com' ]
+  config.action_cable.url = 'wss://peaceful-headland-77668.herokuapp.com/api/cable'
+  config.action_cable.allowed_request_origins = [ 'https://desolate-earth-24328.herokuapp.com', 'https://desolate-earth-24328.herokuapp.com/' ]
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
