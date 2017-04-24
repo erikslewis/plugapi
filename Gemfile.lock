@@ -300,7 +300,7 @@ DEPENDENCIES
   fog (~> 1.38)
   jwt (~> 1.5)
   listen (~> 3.0.5)
-  pg (~> 0.18)
+  pg
   pry-rails (~> 0.3.4)
   puma (~> 3.0)
   rack-cors
@@ -316,4 +316,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.5
+   1.13.7
